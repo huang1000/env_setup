@@ -1,4 +1,5 @@
 # env_setup
+<<<<<<< HEAD
 ## environment setup
     1. Vundle
 
