@@ -17,14 +17,14 @@ https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e
     - Red Hat: `$ sudo yum install zsh`
     - Mac: brew install zsh
 
-To set zsh as your default shell, execute the following.
+To set zsh as your default shell, execute the following: \n
 `sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh`
 
 ### Oh My Zsh:
     `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 ##### Enabling Plugins
-    `vi ~/.zshrc`
+    `$ vi ~/.zshrc`
     To load plugins you want to use:
     `
     plugins=(
@@ -35,4 +35,6 @@ To set zsh as your default shell, execute the following.
       rake
       rbenv
       ruby
-    )`
+    )
+    `
+

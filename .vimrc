@@ -481,3 +481,11 @@ autocmd! bufwritepost .vimrc source %
 " Better Copy & Paste
 set pastetoggle=<F2>
 set clipboard=unnamed
+
+" Mouse and backspace
+set mouse=a  " on OSX, press ALT and click
+"" set bs=2     " make backspace behave like normal again
+
+map <C-s> :update<CR>
+
+vnoremap <Leader>s :sort<CR>
