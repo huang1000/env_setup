@@ -17,7 +17,8 @@ https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e
     - Red Hat: `$ sudo yum install zsh`
     - Mac: brew install zsh
 
-To set zsh as your default shell, execute the following: \n
+To set zsh as your default shell, execute the following: 
+
 `sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh`
 
 ### Oh My Zsh:

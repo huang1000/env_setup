@@ -489,3 +489,8 @@ set mouse=a  " on OSX, press ALT and click
 map <C-s> :update<CR>
 
 vnoremap <Leader>s :sort<CR>
+
+" easier moving of code blocks
+vnoremap < <gv " better indentation
+vnoremap > >gv " better indentation
+
