@@ -20,6 +20,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'rafi/awesome-vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -100,7 +101,7 @@ nmap <leader>w :w!<cr>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
+"command W w !sudo tee % > /dev/null
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -177,7 +178,7 @@ nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme pablo
 catch
 endtry
 
@@ -455,8 +456,8 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Display end-line's blankspace and tab
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set list
-set listchars=tab:>-,trail:*,eol:$
+" set list
+" set listchars=tab:>-,trail:*,eol:$
 
 let g:SimpylFold_docstring_preview=1
 " Enable folding with the spacebar
@@ -474,6 +475,10 @@ let g:syntastic_check_on_wq = 0
 call togglebg#map("<F5>")
 map <F3> :NERDTreeMirror<CR>
 map <C-n> :NERDTreeToggle<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Added by Huang Dong
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
