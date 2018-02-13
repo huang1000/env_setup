@@ -1,0 +1,13 @@
+[user]
+	name = Huang Dong
+	email = dong.huang@shopee.com
+[core]
+	editor = vim
+[color]
+	interactive = auto
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[alias]
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
