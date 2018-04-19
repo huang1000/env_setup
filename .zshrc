@@ -1,8 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-export PATH="$PATH:$HOME/anaconda2/bin"
+source ~/.bash_profile
 export PYTHONPATH="$HOME/anaconda2/bin"
 export PATH="$HOME/bin:$PATH"
 
+# alias cdp='cd ~/Desktop/Projects'
 # add alias
 ssh-add -A .ssh/id_rsa
 alias ssh_ml="ssh shopee-ml"
@@ -15,6 +16,7 @@ alias ml2="tunnel_new; ssh_new"
 
 alias ssh_mkt='ssh mkt'
 alias tunnel_mkt="ssh -f -L 8088:localhost:8888 ld-huangdong@mkt -N"
+alias scala=/Users/huangdong/Desktop/Projects/scala/scala-2.12.5/bin/scala
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh

@@ -11,3 +11,4 @@
 	ui = true
 [alias]
 	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	ci = commit
