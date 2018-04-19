@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH="$PATH:$HOME/anaconda2/bin"
+export PATH="$HOME/anaconda2/bin:$PATH"
 export PYTHONPATH="$HOME/anaconda2/bin"
 export PATH="$HOME/bin:$PATH"
 
@@ -75,7 +75,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  osx
   python
 )
 
