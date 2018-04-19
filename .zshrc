@@ -16,7 +16,6 @@ alias ml2="tunnel_new; ssh_new"
 
 alias ssh_mkt='ssh mkt'
 alias tunnel_mkt="ssh -f -L 8088:localhost:8888 ld-huangdong@mkt -N"
-alias scala=/Users/huangdong/Desktop/Projects/scala/scala-2.12.5/bin/scala
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -113,3 +112,8 @@ source $ZSH/oh-my-zsh.sh
 
 PROMPT=': %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 PROMPT="%{$fg[white]%}%m ${PROMPT}"
+
+if [ -f ~/.zsh_profile ]: then
+    . ~/.zsh_profile
+fi
+
