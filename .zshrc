@@ -111,3 +111,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+PROMPT=': %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+PROMPT="%{$fg[white]%}%m ${PROMPT}"
