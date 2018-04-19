@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 PROMPT=': %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 PROMPT="%{$fg[white]%}%m ${PROMPT}"
 
-if [ -f ~/.zsh_profile ]: then
+if [ -f ~/.zsh_profile ]; then
     . ~/.zsh_profile
 fi
 
