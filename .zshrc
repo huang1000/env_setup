@@ -117,3 +117,4 @@ if [ -f ~/.zsh_profile ]; then
     . ~/.zsh_profile
 fi
 
+alias ta="tmux attach -t"
