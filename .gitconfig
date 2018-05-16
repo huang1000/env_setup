@@ -12,3 +12,5 @@
 [alias]
 	lol = log --pretty=oneline --abbrev-commit --graph --decorate
 	ci = commit
+[push]
+	default = simple
