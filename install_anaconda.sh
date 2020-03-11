@@ -1,6 +1,7 @@
 #! /bin/bash
 # install anaconda
 fileURL="https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh"
+fileURL="https://repo.anaconda.com/archive/Anaconda2-2019.07-Linux-x86_64.sh"
 file=$(basename $fileURL)
 if [ -f ./$file ]; then
     echo "./$file detected."
