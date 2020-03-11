@@ -12,14 +12,19 @@ Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-"Plugin 'Valloric/YouCompleteMe'
+" plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'tmhedberg/SimpylFold'
-"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'tyru/open-browser.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'rafi/awesome-vim-colorschemes'
 
 " All of your Plugins must be added before the following line
